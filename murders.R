@@ -6,5 +6,5 @@ murders$state
 table(murders$region)
 class(murders$region)
 hist(murders$total)
-rate <-murders$total/murders$population
-rate
+rate2 <-murders$total/murders$population*100000
+rate2
